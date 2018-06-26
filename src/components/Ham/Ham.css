@@ -1,0 +1,11 @@
+.ham-all{
+    
+}
+.top, .mid{
+    transition: all 1s;
+}
+
+.bot{
+    transition: all 0.5s;
+    transition: opacity 0.5s;
+}

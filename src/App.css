@@ -1,0 +1,49 @@
+.App {
+  text-align: left;
+  position: relative;
+}
+
+button{
+  border: none;
+  background-color: #111;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+button:active{
+  background-color: #888;
+}
+
+.App-header {
+  background-color: #111;
+  height: 40px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.content{
+  padding: 20px;
+}
+
+.textArea{
+  width: 50%;
+  height: 30vh;
+}
+
+.comp{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}

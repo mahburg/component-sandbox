@@ -1,0 +1,26 @@
+#inputer{
+    /* display: none; */
+    position: fixed;
+}
+
+
+.inputer-label{
+    border: 1px solid black;
+    width: 200px;
+}
+
+.x{
+    height: 250px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+input{
+    color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
+input:focus{
+    outline: none;
+}
